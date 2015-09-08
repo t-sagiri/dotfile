@@ -109,9 +109,9 @@ syntax on
 " カラースキーマの指定
 colorscheme desert
 
-"タブ、空白、改行の可視化
-set list
-set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+"タブ、空白、改行の可視化(Mac用)
+" set list
+" set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
 
 " 最後のカーソル位置を復元する
 if has("autocmd")
