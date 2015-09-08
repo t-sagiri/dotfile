@@ -44,9 +44,6 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 " ファイルをtree表示してくれる
 NeoBundle 'scrooloose/nerdtree'
 
-" 行末の半角スペースを可視化
-"NeoBundle 'bronson/vim-trailing-whitespace'
-
 """"""""""""""""""""""""""""""
 " 全角スペースの表示
 """"""""""""""""""""""""""""""
