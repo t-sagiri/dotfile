@@ -14,7 +14,7 @@ ln -s .gitconfig ~/.gitconfig
 # vim
 # -neobundleでプラグインを管理するためインストール
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
-ln -s _viminfo ~/.viminfo
+ln -s ~/dotfile/_vimrc ~/.vimrc
 
 # sqlite
 # 特にその必要がなければ使わなくてもいい
