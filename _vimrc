@@ -109,9 +109,14 @@ syntax on
 " カラースキーマの指定
 colorscheme desert
 
-"タブ、空白、改行の可視化(Mac用)
+""""""""""""""""""""""""""""""
+" Mac用
+""""""""""""""""""""""""""""""
+"タブ、空白、改行の可視化
 " set list
 " set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+" INSERTモードでmac deleteキーがバックスペースできなかったのでできるように設定
+" set backspace=indent,eol,start
 
 " 最後のカーソル位置を復元する
 if has("autocmd")
@@ -121,8 +126,9 @@ if has("autocmd")
     \ endif
 endif
 
-" INSERTモードでmac deleteキーがバックスペースできなかったのでできるように設定
-set backspace=indent,eol,start
-
 " 折り返しなし
 set nowrap
+
+" タグジャンプ先を新規タブで開く（F3）
+" もともとのタグジャンプ Ctrl + ] では同じタブで普通に移動するだけにしとく
+nnoremap <F3> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR> 
