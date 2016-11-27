@@ -6,6 +6,6 @@
 1. `git clone`
 2. `install.sh` を実行して設定適応
 
-# Neobudle
+# dein.vimを使おうかな～？
 
-https://github.com/Shougo/neobundle.vim 参照
+https://github.com/Shougo/dein.vim
