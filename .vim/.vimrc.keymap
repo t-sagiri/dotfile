@@ -1,0 +1,12 @@
+" 誤操作したくないキーを無効化
+nnoremap ZZ <Nop>
+nnoremap ZQ <Nop>
+nnoremap Q <Nop>
+nnoremap <F1> <Nop>
+
+" タグジャンプ先を新規タブで開く（F3）
+" もともとのタグジャンプ Ctrl + ] では同じタブで普通に移動するだけにしとく
+nnoremap <F3> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
+
+"set backspace=start,eol,indent
+

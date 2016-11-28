@@ -1,0 +1,6 @@
+" 外観設定
+source ~/.vim/plugin/zenkaku-display.vim
+
+set hlsearch
+set cursorline
+colorscheme desert
