@@ -8,5 +8,3 @@ nnoremap <F1> <Nop>
 " もともとのタグジャンプ Ctrl + ] では同じタブで普通に移動するだけにしとく
 nnoremap <F3> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
 
-"set backspace=start,eol,indent
-

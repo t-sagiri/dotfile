@@ -3,4 +3,12 @@
 " タブ入力を複数の空白入力に置き換える
 " TODO:Pythonの時だけはタブが入力できるように設定を変更する
 set expandtab
+set smartindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
+set fileencoding=utf-8
+set fileencodings=utf-8,cp932
+set fileformat=unix
+set fileformats=unix,dos
