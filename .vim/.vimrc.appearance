@@ -5,7 +5,5 @@ set hlsearch
 
 syntax on
 set cursorline
-set colorcolumn=80
 colorscheme desert
 
-set nowrap

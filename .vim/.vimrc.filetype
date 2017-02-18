@@ -1,1 +1,3 @@
 autocmd BufRead,BufNewFile *.bat setfiletype bat
+autocmd BufRead,BufNewFile *.php setfiletype php
+autocmd BufRead,BufNewFile *.txt setfiletype txt
