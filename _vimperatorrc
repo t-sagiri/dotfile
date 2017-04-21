@@ -1,6 +1,0 @@
-set hintchars=hjklasdfgyuiopqwertnmzxcvb
-
-" ヒント表示色
-highlight Hint font-family: Arial; font-size: 16px; font-weight: bold; text-shadow: -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black, 1px 1px 2px black; color: #33cccc;
-highlight HintElem color: gray; background-color: #a1e4e6;
-highlight HintActive color: black; background-color: #ff8700;
