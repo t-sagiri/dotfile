@@ -1,7 +1,2 @@
-" 使用感が微妙で使ってない
-" source ~/.vim/plugin/auto-close-brackets.vim
-
-source ~/.vim/plugin/neocomplete-config.vim
 source ~/.vim/plugin/last-cursor.vim
-source ~/.vim/plugin/unite-autoline-config.vim
 

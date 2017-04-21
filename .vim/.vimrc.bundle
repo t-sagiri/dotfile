@@ -1,23 +1,2 @@
-if &compatible
-  set nocompatible
-endif
-set runtimepath+=/home/yukikaze/.vim/bundle/repos/github.com/Shougo/dein.vim
-
-call dein#begin(expand('/home/yukikaze/.vim/bundle'))
-call dein#add('Shougo/dein.vim')
-
-" 以下導入したいプラグイン群
-call dein#add('scrooloose/nerdtree')
-"call dein#add('Shougo/neocomplete.vim')
-" - unite
-" unite-outlineにもしかして以下の2つも要るかなぁ？
-"call dein#add('Shougo/unite.vim')
-"call dein#add('Shougo/neomru.vim')
-call dein#add('Shougo/unite-outline')
-
-" 以上導入したいプラグイン群
-
-call dein#end()
-
 filetype plugin indent on
 syntax enable
