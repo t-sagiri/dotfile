@@ -9,6 +9,8 @@ set softtabstop=4
 set shiftwidth=4
 
 set fileencoding=utf-8
-set fileencodings=utf-8,cp932
 set fileformat=unix
-set fileformats=unix,dos
+
+" for Windows
+" set fileencodings=utf-8,cp932
+" set fileformats=unix,dos
