@@ -7,3 +7,11 @@ syntax on
 set cursorline
 colorscheme desert
 
+" ファイル名表示
+set statusline=%F
+" ヘルプページなら[HELP]と表示
+set statusline+=%h
+" 現在行数/全行数
+set statusline+=[LOW=%l/%L]
+" ステータスラインを常に表示(0:表示しない、1:2つ以上ウィンドウがある時だけ表示)
+set laststatus=2
