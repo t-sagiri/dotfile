@@ -4,6 +4,7 @@
 	ui = true
 [core]
 	excludesfile = ~/.global-gitignore
+	editor = vim
 [user]
 	name = somebody
 	email = mail@mail
